@@ -1,0 +1,45 @@
+.sample-page-wrapper{
+    padding: 3rem 6rem;
+    /* margin: 4rem 0; */
+    color: rgb(170, 170, 170);
+}
+.sample-page-wrapper h1, h2, h3, h4{
+    color: #fff
+}
+.sample-page-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.sample-page-heading h1{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+}
+.sample-page-heading p{
+padding-top: 1rem;
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: #878D95;
+}
+
+@media screen and (width<=768px) {
+    .sample-page-wrapper{
+        padding: 2rem 1rem;
+        font-size: 14px;
+    }
+    .sample-page-heading h1{
+        font-size: 50px;
+    }
+    .sample-page-heading p{
+        font-size: 16px;
+    }
+}
+

@@ -1,0 +1,61 @@
+.textandcards{
+    padding: 3rem 2.5rem;
+    margin: 4rem 0;
+    background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+    
+}
+.onlytext h2{
+
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+}
+.onlytext p{
+padding-top: 1rem;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: #878D95;
+}
+
+.onlycards{
+    display: flex;
+    gap: 2rem;
+}
+.layout1{
+    display: flex;
+    gap: 1.5rem;
+    /* width: 66.66%; */
+}
+
+.layout2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3.2rem;
+}
+.cta-wala-container{
+    background: #222529;
+}
+
+@media only screen and (width<=768px){
+    .onlycards, .layout1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .onlycards{
+        padding: 0 4rem;
+    }
+
+    .onlytext h2{
+        font-size: 50px;
+    }
+    .onlytext p{
+        font-size: 16px;
+    }
+
+
+}

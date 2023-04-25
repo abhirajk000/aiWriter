@@ -1,0 +1,32 @@
+.card-wrapper2{
+padding: 28.2031px 64.5422px 31.7969px 25.1641px;
+background: #222529;
+box-shadow: inset 0px 0px 0px 2px #2B333D;
+border-radius: 18px;
+width: 400px;
+height: 142px;
+cursor: pointer;
+}
+
+.card-wrapper2 h4{
+height: 82px;
+font-weight: 600;
+font-size: 34px;
+line-height: 41px;
+background: transparent;
+padding: 0 10px;
+
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+/* .card-wrapper2 img{
+    position: relative;
+    right: 2px;
+    height: 30px;
+    width: 30px;
+
+} */
+.card-wrapper2:hover{
+    background-image: linear-gradient(132deg, #5238ff, #a0fbcd);
+}

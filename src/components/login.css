@@ -1,0 +1,19 @@
+.login2-container {
+ 
+    background: var(--gradient-one);
+  }
+  .google-container{
+    margin-bottom: 1.8rem;
+  }
+  .google-login{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .login-btn:hover, .google-login:hover{
+    background: #fff;
+    color: #000;
+    border: none;
+
+  }

@@ -1,0 +1,172 @@
+.text-pricingcards{
+    padding: 4px 2rem;
+    margin: 4rem 0;
+    
+}
+
+.main-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 6rem;
+}
+
+.text-content-1{
+    margin: 120px;
+}
+
+.text-content-1 h1{
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffff;
+
+}
+
+.text-content-1 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin: 16px 180px;
+}
+
+.card-wrapper-1{
+    width: 446.66px;
+    height: 565.36px;
+background: #222529;
+box-shadow: inset 0px 0px 0px 2px #2B333D;
+border-radius: 18px;
+}
+
+.pricing-card{
+width: 396.66px;
+height: 505.36px;
+/* margin: 30px 25px; */
+padding-left: 2rem;
+padding-top: 2rem;
+ }
+
+.card-section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+}
+
+.pricing-line{
+    margin: 10px 0;
+    color: #ffff;
+}
+.colour{
+    color: #FFFFFF66;
+
+}
+
+.card-section-2{
+    margin-top: 40px;
+}
+
+.card-section-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+}
+
+.card-section-3 p{
+    margin-left: 10px;
+    color: #ffff;
+    margin-bottom: -1rem;
+}
+
+.btn-1{
+    width: 100%;
+    padding: 1rem 6.2rem;
+    color: #fff;
+    line-height: 21px;
+    border: 1px solid #ffff;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 100px;
+    margin: 100px 0 30px;
+    transition: all 500ms ease;
+}
+.btn-1:hover{
+    background: #fff;
+    color: #000;
+}
+
+.card-wrapper-2{
+    background: linear-gradient(132deg, #F85D7F 0%, #6B81FA 100%);
+    width: 446.66px;
+    height: 565.36px;
+border-radius: 18px;
+}
+
+.pricing-textcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.pricing-textcontent h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+}
+.pricing-textcontent p{
+padding-top: 1rem;
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: #878D95;
+}
+.card-section-1 h3{
+    font-size:24px;
+}
+
+@media only screen and (width<=768px){
+
+
+    .pricing-textcontent h2{
+        font-size: 50px;
+    }
+    .pricing-textcontent p{
+        font-size: 16px;
+    }
+    .main-card{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        gap: 2rem
+    }
+    .card-wrapper-1, .card-wrapper-2{
+        width: 342.66px;
+    }
+    .btn-1{
+        padding: 1rem 2rem;
+        width: 270px;
+        
+    }
+    .card-section-1 h3{
+        font-size: 18px;
+        padding-right: 2rem;
+    }
+    .pricing-card{
+        width: 340.66px;
+    }
+
+
+}

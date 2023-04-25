@@ -1,0 +1,79 @@
+
+ .cta-wrapper{
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+  }
+
+.cta-card {
+    width: 1110px;
+    height: 325px;
+    background: linear-gradient(132deg, #F85D7F 0%, #6B81FA 100%);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cta-left{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    color: #ffffff;
+}
+.cta-left h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.cta-btn{
+    padding: 12px auto;
+    color: #ffffff;
+    width: 251px;
+    height: 50px;
+    margin-top: 2rem;   
+    background: #000000;
+    border-radius: 40px;
+    transition: all 300ms ease;
+}
+
+
+.cta-btn:hover{
+    -webkit-box-shadow: 10px 9px 19px -14px rgba(64,64,64,1);
+    -moz-box-shadow: 10px 9px 19px -14px rgba(64,64,64,1);
+    box-shadow: 10px 9px 19px -14px rgba(64,64,64,1);
+    color: #00d577;
+}
+
+@media screen and (width<=768px) {
+    .cta-card{
+       width: 370px;
+       height: 130px;
+       margin: 0 auto;
+    }
+    .cta-right{
+        display: none;
+    }
+    .cta-left {
+        line-height: 2px;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .cta-left p{
+        font-size: 12px;
+        -webkit-font-smoothing: antialiased
+    }
+    .cta-left h3{
+        font-size: 22px;
+        margin-bottom: -1rem;
+        
+    }
+   .cta-btn{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 5rem;
+    font-size: 12px;
+   }
+   .cta-wrapper{
+    padding: 2rem 0;
+    margin: 0 auto;
+  }
+    
+}

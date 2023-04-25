@@ -1,0 +1,54 @@
+.card-wrapper{
+background: #222529;
+box-shadow: inset 0px 0px 0px 2px #2B333D;
+border-radius: 18px;
+width: 420px;
+height: 313px;
+padding: 29.9062px 25.1719px;
+margin-top: 3rem;
+cursor: pointer;
+transition: all 500ms ease;
+}
+
+.card-wrapper h4{
+    width: 392px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #FFFFFF;
+    background: transparent;
+    padding-top: 1rem;
+    
+}
+
+.card-wrapper p{
+    
+    width: 386.98px;
+    height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+padding-top: 4rem;
+background: transparent;
+
+display: flex;
+align-items: center;
+color: rgba(255, 255, 255, 0.4);
+}
+
+.card-wrapper img{
+    padding-top: 2rem;
+    background: transparent;
+
+}
+
+.card-wrapper:hover{
+    background: linear-gradient(132deg, #F85D7F 0%, #6B81FA 100%);
+}
+
+

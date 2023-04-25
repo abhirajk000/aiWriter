@@ -1,0 +1,66 @@
+.textandcards2{
+    padding: 0 2.5rem;
+    margin: 6rem 0;
+    z-index: -1;    
+}
+
+.onlytext2 h2{
+
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+}
+.first-gr{
+    background: linear-gradient(111deg, #F85D7F 0%, #6B81FA 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.second-gr{
+    background: linear-gradient(111deg, #5238FF 0%, #A0FBCD 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.onlytext2 p{
+text-align: center;
+padding-top: 1rem;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: #878D95;
+}
+.writing-btn{
+    padding: 20px 74.5312px 18.5938px 73.4688px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    width: 400px;
+    border: 2px solid #00d577;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 100px;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 500ms ease;
+}
+.writing-btn:hover{
+    color: black;
+    background-color: #00d577;
+}
+
+@media only screen and (width<=768px){
+   
+    .onlytext2 h2{
+        font-size: 50px;
+        
+    }
+    .onlytext2 p{
+        font-size: 16px;
+    }
+
+
+}

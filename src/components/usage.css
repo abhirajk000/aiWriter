@@ -1,0 +1,14 @@
+.graph-container{
+    padding: 4rem;
+    width: 700px;
+     margin: 0 auto;
+}
+
+    
+
+@media screen and (width<=768px){
+    .graph-container{
+        width:auto;
+    }
+    
+}
